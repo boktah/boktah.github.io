@@ -1,2 +1,42 @@
-.current {
-  color: green; }
+html {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif; }
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #555;
+  padding: 20px 20px 20px 20px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000; }
+
+.topnav .footer {
+  background-color: #333333;
+  overflow: hidden; }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; }
+
+.topnav a:hover {
+  background-color: #dddddd;
+  color: black; }
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white; }
+
+.content {
+  text-align: center;
+  background-color: #606060;
+  color: white; }
+
+.postlist {
+  list-style: none;
+  padding: 0;
+  margin: 0; }

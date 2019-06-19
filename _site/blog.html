@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <title>Blog</title>
         <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap">
     </head>
     <body>
-        <nav>
+        <div class="header">
+            <div class="topnav">
     
         <a href="/" >
             Home
         </a>
     
-        <a href="/blog.html" class="current">
+        <a href="/blog.html" class="active">
             Blog
         </a>
     
@@ -20,19 +22,12 @@
             About
         </a>
     
-</nav>
-        <h1>Latest Posts</h1>
+</div>
+        </div>
+        <div class="content">
+            <h1>Latest Posts</h1>
 
-<ul>
-    
-        <li>
-            <!--<h2><a href="/2019/06/16/first.html">First</a></h2>-->
-            <h2>First</h2>
-            <p><p>Hello, this is another blog post.</p>
-
-</p>
-            <p><a href="/2019/06/16/first.html">Continue reading...</a></p>
-        </li>
+<ul class="postlist">
     
         <li>
             <!--<h2><a href="/2019/06/15/welcome.html">Welcome</a></h2>-->
@@ -44,5 +39,10 @@
         </li>
     
 </ul>
+
+        </div>
+        <div class="footer">
+            <h6>Footer</h6>
+        </div>
     </body>
 </html>
