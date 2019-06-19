@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
 }
 
-.topnav .footer {
+.topnav, .footer {
     background-color: #333333;
     overflow: hidden;
 }
@@ -30,12 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topnav a:hover {
-    background-color: #dddddd;
+    background-color: #666;
     color: black;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #3eddc8;
     color: white;
 }
 
@@ -45,9 +45,9 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-// .footer {
-//     text-align: right;
-// }
+.footer {
+    text-align: right;
+}
 
 .postlist {
     list-style: none;

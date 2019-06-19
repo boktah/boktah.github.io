@@ -1,20 +1,32 @@
 <!doctype html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap">
     </head>
+    
     <body>
-        <div class="header">
-            {% include navigation.html %}
+
+        <div class="topnav">
+            {% for item in site.data.navigation %}
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+                    {{ item.name }}
+                </a>
+            {% endfor %}
         </div>
+
+
         <div class="content">
             {{ content }}
         </div>
+
+
         <div class="footer">
             <h6>Footer</h6>
         </div>
+
     </body>
 </html>
