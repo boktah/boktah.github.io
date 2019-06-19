@@ -3,13 +3,17 @@ html {
   font-family: 'Roboto Condensed', sans-serif; }
 
 body {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
   background-color: #555;
-  padding: 20px 20px 20px 20px; }
+  padding: 0px 20px 20px 20px; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000000; }
+  color: #ffffff;
+  margin: 10px; }
+
+a {
+  color: #87d1c7; }
 
 .topnav, .footer {
   background-color: #333333;
@@ -28,13 +32,14 @@ h1, h2, h3, h4, h5, h6 {
   color: black; }
 
 .topnav a.active {
-  background-color: #3eddc8;
+  background-color: #32b3a1;
   color: white; }
 
 .content {
   text-align: center;
   background-color: #606060;
-  color: white; }
+  color: white;
+  padding: 10px 20px; }
 
 .footer {
   text-align: right; }
