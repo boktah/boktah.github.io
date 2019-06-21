@@ -10,4 +10,5 @@ function initate() {
     style2.onclick = function () { swapStyleSheet("/assets/css/light.css"); };
 }
 
-window.onload = initate;
+// window.onload = initate;
+window.onload = console.log("load");
