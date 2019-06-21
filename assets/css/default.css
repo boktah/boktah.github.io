@@ -4,10 +4,14 @@ html {
 }
 
 body {
-  margin: 0 auto;
   background-color: #333;
-  padding: 0px;
   // border: 5px solid black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,11 +59,17 @@ a {
     width: 60%;
     padding: 10px 20px;
     margin: auto;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 200px;
 }
 
 .footer {
     text-align: right;
     color: #ffffff;
+    position: absolute;
+    height: 200px;
+    bottom:0;
 }
 
 .postlist {
