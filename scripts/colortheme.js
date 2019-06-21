@@ -19,7 +19,7 @@ function initiate() {
 }
 
 window.onload = function () {
-    initiate;
+    initiate();
     if (dark) {
         swapStyleSheet("/assets/css/default.css");
     } else {
