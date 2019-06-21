@@ -24,5 +24,5 @@ window.onload = function () {
     } else {
         swapStyleSheet("/assets/css/light.css");
     }
-    window.onload = initiate;
+    initiate;
 };
