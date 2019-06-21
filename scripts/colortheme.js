@@ -20,7 +20,7 @@ function initiate() {
 
 window.onload = function () {
     if (dark) {
-        swapStyleSheet("/assets/css/dark.css");
+        swapStyleSheet("/assets/css/default.css");
     } else {
         swapStyleSheet("/assets/css/light.css");
     }
