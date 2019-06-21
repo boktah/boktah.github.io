@@ -11,4 +11,4 @@ function initate() {
 }
 
 // window.onload = initate;
-window.onload = console.log("load");
+window.onload = function () { console.log("load"); };
